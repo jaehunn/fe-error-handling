@@ -1,16 +1,13 @@
-import { css } from "@emotion/react";
+import { Routes } from "~/pages/Routes";
+import { Layout } from "~/components/Layout";
 
 const App = () => {
+  // TODO:
+
   return (
-    <div
-      css={css`
-        width: 100px;
-        height: 100px;
-        background-color: tomato;
-      `}
-    >
-      App
-    </div>
+    <Layout>
+      <Routes />
+    </Layout>
   );
 };
 
