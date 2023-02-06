@@ -1,7 +1,11 @@
 import { PropsWithChildren } from "react";
 import { css, useTheme } from "@emotion/react";
 
-export const Layout = ({ children }: PropsWithChildren<unknown>) => {
+type Props = PropsWithChildren<{
+  //
+}>;
+
+const Layout = ({ children }: Props) => {
   const { color } = useTheme();
 
   return (
@@ -24,3 +28,5 @@ export const Layout = ({ children }: PropsWithChildren<unknown>) => {
     </div>
   );
 };
+
+export default Layout;

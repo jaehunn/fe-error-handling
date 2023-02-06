@@ -1,4 +1,7 @@
 export const COLOR = {
+  background: "#ffffff",
+  white: "#ffffff",
+  black: "#000000",
   grey50: "#f9fafb",
   grey100: "#f2f4f6",
   grey200: "#e5e8eb",
@@ -9,8 +12,6 @@ export const COLOR = {
   grey700: "#4e5968",
   grey800: "#333d4b",
   grey900: "#191f28",
-  white: "#ffffff",
-  black: "#000000",
   blue50: "#e8f3ff",
   blue200: "#90c2ff",
   blue100: "#c9e2ff",
@@ -81,5 +82,4 @@ export const COLOR = {
   green700: "#029359",
   green800: "#028450",
   green900: "#027648",
-  background: "#ffffff",
 } as const;

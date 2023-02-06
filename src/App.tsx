@@ -1,5 +1,5 @@
-import { Routes } from "~/pages/Routes";
-import { Layout } from "~/components/Layout";
+import Routes from "~/pages/Routes";
+import Layout from "~/components/Layout";
 
 const App = () => {
   // TODO:
